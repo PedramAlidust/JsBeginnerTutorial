@@ -1,0 +1,2 @@
+Challenge: Instead of just showing the task name in the list, show it with the time it was added (e.g., "Buy milk (added at 14:30)").
+

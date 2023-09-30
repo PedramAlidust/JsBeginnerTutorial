@@ -1,0 +1,7 @@
+HTML Addition:
+<button onclick="switchToPinkTheme()">Switch to Pink Theme</button>
+JavaScript Addition:
+function switchToPinkTheme() {
+    document.body.style.background = "linear-gradient(45deg, #FFC0CB, #FF1493)";
+    document.body.style.color = "#FFFFFF";
+}

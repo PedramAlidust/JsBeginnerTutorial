@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(90deg, rgba(9,9,121,1) 0%, rgba(0,212,255,1) 100%);
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    overflow: hidden;
+}
+
+.input-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.1);
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    color: #fff;
+    padding: 10px 15px;
+    border-radius: 50px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 0.2);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+input {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    margin-right: 10px; /* Spacing between the input and button */
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input[type="text"] {
+    background: rgba(255, 255, 255, 0.9);
+    color: #333;
+}
+
+input[type="text"]:focus {
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+}
+
+p {
+    margin-top: 20px; /* Spacing between the greeting text and input-container */
+}

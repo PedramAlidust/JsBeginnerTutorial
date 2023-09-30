@@ -1,0 +1,11 @@
+HTML Addition:
+<p id="wordCount">Words Typed: 0</p>
+JavaScript Modification:
+let wordCount = 0;
+
+function checkInput() {
+    ...
+    wordCount++;
+    document.getElementById("wordCount").innerText = "Words Typed: " + wordCount;
+    ...
+}

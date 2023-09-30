@@ -1,0 +1,14 @@
+HTML Modification:
+<select id="operation">
+    ...
+    <option value="modulus">Modulus</option>
+    ...
+</select>
+JavaScript Modification:
+switch (operation) {
+    ...
+    case "modulus":
+        result = num1 % num2;
+        break;
+    ...
+}

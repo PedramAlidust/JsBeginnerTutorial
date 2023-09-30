@@ -1,0 +1,8 @@
+JavaScript Modification:
+function addTask() {
+    ...
+    let time = new Date();
+    let formattedTime = time.getHours() + ":" + time.getMinutes();
+    li.textContent = `${task} (added at ${formattedTime})`;
+    ...
+}

@@ -1,0 +1,8 @@
+JavaScript Modification:
+function addBook() {
+    ...
+    li.addEventListener("click", function() {
+        this.remove();
+    });
+    ...
+}

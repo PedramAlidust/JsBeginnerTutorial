@@ -1,0 +1,12 @@
+HTML Addition
+<ul id="nameList"></ul>
+JavaScript Modification:
+function updateGreeting() {
+    let name = document.getElementById("nameInput").value;
+    document.getElementById("intro").innerText = "Hello, " + name + "!";
+
+    // Add name to the list
+    let li = document.createElement("li");
+    li.innerText = name;
+    document.getElementById("nameList").appendChild(li);
+}

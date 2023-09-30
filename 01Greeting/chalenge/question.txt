@@ -1,0 +1,2 @@
+Challenge: Modify the greeting project so that when a user inputs their name and presses the button, their name is added to a list below, showcasing all names that have been entered.
+

@@ -1,0 +1,2 @@
+Challenge: Show the number of words the user has correctly typed above the input box.
+

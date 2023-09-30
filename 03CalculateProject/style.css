@@ -1,0 +1,59 @@
+body {
+    font-family: 'Poppins', sans-serif;
+    background: linear-gradient(45deg, #84fab0 0%, #8fd3f4 100%);
+    color: #2C3E50;
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.4s, color 0.4s;
+}
+
+.CalculateContainer {
+    display: flex;
+    direction: column;
+}
+
+button {
+    background-color: rgba(255, 255, 255, 0.9);
+    border: none;
+    color: #2C3E50;
+    padding: 15px 25px;
+    border-radius: 50px;
+    font-size: 18px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: all 0.3s ease;
+    outline: none;
+}
+
+button:hover {
+    background-color: rgba(255, 255, 255, 1);
+    box-shadow: 0 15px 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-3px);
+}
+
+input, select {
+    padding: 10px 15px;
+    border: none;
+    border-radius: 50px;
+    outline: none;
+    font-size: 16px;
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease;
+}
+
+input[type="text"], input[type="number"] {
+    background: rgba(255, 255, 255, 0.9);
+    color: #2C3E50;
+}
+
+.dark-theme {
+    background: linear-gradient(45deg, #434343 0%, #000000 100%);
+    color: #BDC3C7;
+}
+
+p {
+    margin-top: 20px;
+    font-size: 20px;
+}

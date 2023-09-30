@@ -1,0 +1,2 @@
+Challenge: Allow users to remove a book from the list by clicking on its name.
+
